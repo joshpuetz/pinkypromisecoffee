@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pinky Promise Coffee Roasters</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --slate:  #3d4a58;
+      --blue:   #8dc0d8;
+      --cream:  #d4c6a4;
+      --cream-soft: #c4b795;
+      --white:  #eef4f7;
+      --muted:  #7a98ad;
+    }
+
+    body {
+      background-color: var(--slate);
+      color: var(--cream);
+      font-family: Georgia, "Times New Roman", serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1.5rem;
+    }
+
+    .wrap {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      width: min(280px, 80vw);
+      margin: 0 auto 2.2rem;
+      display: block;
+    }
+
+    hr {
+      width: 50px;
+      height: 1px;
+      background: var(--blue);
+      border: none;
+      margin: 0 auto 2rem;
+    }
+
+    .body-text {
+      font-size: 1.05rem;
+      line-height: 1.78;
+      color: var(--cream);
+      margin-bottom: 1.4rem;
+      text-align: left;
+    }
+
+    .new-owners {
+      background: rgba(0,0,0,0.18);
+      border-left: 3px solid var(--blue);
+      border-radius: 2px;
+      padding: 1.3rem 1.5rem;
+      margin: 1.8rem 0;
+      text-align: left;
+    }
+
+    .new-owners p {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: var(--cream);
+      margin-bottom: 1rem;
+    }
+
+    .new-owners p:last-child {
+      margin-bottom: 0;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+      margin-top: 0.2rem;
+    }
+
+    .social-links a {
+      display: inline-block;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--slate);
+      background: var(--blue);
+      padding: 0.45rem 1.2rem;
+      border-radius: 2px;
+      text-decoration: none;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: background 0.2s;
+    }
+
+    .social-links a:hover {
+      background: var(--cream);
+    }
+
+    .sign-off {
+      margin-top: 2rem;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.7;
+      text-align: left;
+    }
+
+    .sign-off strong {
+      display: block;
+      font-style: normal;
+      font-weight: normal;
+      color: var(--cream-soft);
+      margin-top: 0.4rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <img src="logo.png" alt="Pinky Promise Coffee Roasters" class="logo" />
+    <hr />
+
+    <p class="body-text">
+      After years of roasting and shipping coffee to the best customers we could
+      have asked for, Pinky Promise Coffee Roasters has been sold and our online
+      operations are now closed.
+    </p>
+
+    <p class="body-text">
+      We are so grateful for your support. You chose to spend your coffee money
+      with a small, community-focused roaster — and that meant the world to us.
+    </p>
+
+    <div class="new-owners">
+      <p>
+        The new owners are <strong>The Street Brew</strong>, longtime wholesale
+        customers of ours who already love and believe in what we've been
+        roasting. They're taking over both the cafe and roasting operations.
+        Their plans for online sales are still taking shape, but we encourage
+        you to follow along and show them some support:
+      </p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/thestreetbrew01/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61577352607422" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+
+    <p class="body-text">
+      If you had an active subscription, it has been cancelled — no further
+      charges will be made to your card, and no additional shipments will be
+      sent beyond any orders already in process.
+    </p>
+
+    <p class="sign-off">
+      Thank you, truly, for being part of the Pinky Promise story.
+      <strong>— Sean Grorich, Pinky Promise Coffee Roasters</strong>
+    </p>
+
+    <footer>pinkypromisecoffee.com</footer>
+
+  </div>
+</body>
+</html>
